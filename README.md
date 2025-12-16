@@ -28,23 +28,24 @@ To encrypt a plaintext file (e.g., my_plans.txt) located in the secret folder.
 
 Command:
 
-Bash
+```Bash
 
 #### General Syntax:
 python fileVault.py encrypt <filename>
 
 #### Example (Assuming your working Python is in your PATH):
 python fileVault.py encrypt my_plans.txt
-
+```
 ### 4.🔓 Decryption
 To decrypt a ciphertext file (e.g., my_plans.txt.enc) located in the secret folder.
 
 Command:
 
-Bash
+```Bash
 
 #### General Syntax:
 python fileVault.py decrypt <filename.enc>
 
 #### Example:
 python fileVault.py decrypt my_plans.txt.enc
+```
