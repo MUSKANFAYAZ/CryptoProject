@@ -22,3 +22,16 @@ This project requires the `pycryptodome` library. Open your terminal in the proj
 
 ```bash
 pip install pycryptodome
+```
+### 3. 🔑 Encryption
+To encrypt a plaintext file (e.g., my_plans.txt) located in the secret folder.
+
+Command:
+
+Bash
+
+# General Syntax:
+python fileVault.py encrypt <filename>
+
+# Example (Assuming your working Python is in your PATH):
+python fileVault.py encrypt my_plans.txt
