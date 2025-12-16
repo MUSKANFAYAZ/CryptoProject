@@ -30,8 +30,8 @@ Command:
 
 Bash
 
-# General Syntax:
+#### General Syntax:
 python fileVault.py encrypt <filename>
 
-# Example (Assuming your working Python is in your PATH):
+#### Example (Assuming your working Python is in your PATH):
 python fileVault.py encrypt my_plans.txt
